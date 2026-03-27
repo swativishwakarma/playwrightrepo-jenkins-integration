@@ -6,3 +6,9 @@ blob-report/
 coverage/
 dist/
 build/
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
