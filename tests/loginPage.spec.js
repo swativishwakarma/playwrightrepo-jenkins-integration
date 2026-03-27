@@ -12,5 +12,5 @@ test('assertion', async ({page}) => {
     await page.goto('https://www.demoblaze.com/prod.html?idp_=2#');
     await expect(page).toHaveURL('https://www.demoblaze.com/prod.html?idp_=2#');
     await expect(page).toHaveTitle('STORE');
-    
+
 });
